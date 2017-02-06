@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>杨燕的主页</title>
+    <!--title image-->
+    <link rel="shortcut icon" type="text/css" href="img/favicon.ico"/>
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <!-- Add custom CSS here -->
+    <link href="css/slidefolio.css" rel="stylesheet">
+	<!-- Font Awesome -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <style type="text/css">
+    	@media (min-width: 992px){
+				.col-md-4s {
+    			width: 40%;
+				}
+				.col-md-offset-4s {
+    			margin-left:32%;
+				}
+			}	
+    </style>
+  </head>
+<body>
+		<audio style="display:none" controls id="audio"></audio>
+		<div class="andio">
+			<div class="pre"><div class="pre-img"></div></div>
+			<div class="stop"><div class="stop-img"></div></div>
+			<div class="next"><div class="next-img"></div></div>
+		</div>
+    <!-- Header Area -->
+    <div id="top" class="header">
+      <div class="vert-text">
+      	<div style="width:100%;background:red;position:relative;" class="text-center">
+        	<div class="yuan">
+   	      	<img  width='320px' style="opacity:0.7;"  class="img-rounded" alt="Company Logo" src="./img/1.jpg"/>
+        	</div>
+      	</div>
+        <h2 style="margin: 300px auto 0;" class="mengxiang">只要有梦想，就要去捍卫它</h2>
+		    <ul class="list-inline">
+          <li>我是杨燕</li>
+          <li>前端工程师</li>
+          <li>两年工作经验</li>
+      		<li><a href="tel:18303410951">18303410951</a></li>
+      		<li>yangyan486@126.com</li>
+        </ul>	
+				<br>
+				<a href="#about" class="btn btn-top">Learn More</a>
+      </div>
+    </div>
+    <!-- /Header Area -->
+	  <div id="nav">
+    <!-- Navigation -->
+    	<nav class="navbar navbar-new" role="navigation">
+   			<div class="container">
+  <!-- Brand and toggle get grouped for better mobile display -->
+  				<div class="navbar-header">
+    				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mobilemenu">
+      				<span class="sr-only">Toggle navigation</span>
+     		 			<span class="icon-bar"></span>
+      				<span class="icon-bar"></span>
+      				<span class="icon-bar"></span>
+    				</button>
+						<a href="#" class="navbar-brand">杨燕</a>
+  				</div>
+  				<div class="collapse navbar-collapse" id="mobilemenu">
+	  				<ul class="nav navbar-nav navbar-right text-center">
+	    				<li>
+	    					<a href="#top"><i class="service-icon fa fa-home"></i>&nbsp;Home</a>
+	    				</li>
+        			<li>
+        				<a href="#about"><i class="service-icon fa fa-info"></i>&nbsp;About</a>
+        			</li>
+        			<li>
+        				<a href="#services"><i class="service-icon fa fa-laptop"></i>&nbsp;Speciallities</a>
+        			</li>
+        			<li>
+        				<a href="#portfolio"><i class="service-icon fa fa-camera"></i>&nbsp;Experience</a>
+        			</li>
+        			<li>
+        				<a href="#contact"> <i class="service-icon fa fa-envelope"></i>&nbsp;Contact</a>
+        			</li>
+    				</ul>
+  				</div><!-- /.navbar-collapse -->
+  			</div>
+			</nav>
+    <!-- /Navigation -->
+		</div>	
+    <!-- About -->
+    <div id="about" class="about_us">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2 text-center">
+            <h2 class="da-title"><span>About Me</span></h2>
+            <h4>关于我</h4>
+            <p class="lead">    本人能与同事协作，服从安排，能尽快适应新的环境及工作为人诚恳、有上进心、富有团队合作精神、沟通能力强，有良好的团队意识。具有较强观察能力，优良的沟通交际能力，能很快地融入新的工作中，能很好地面对工作压力，坚持不懈、求知欲强，乐于接受新的挑战。</p>
+          </div>
+        </div>
+	  	</div>
+    </div>   
+    <!-- Speciallities -->
+    <div id="services" class="services">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 col-md-offset-4 text-center">
+            <h2 class="da-title"><span>My Speciallities</span></h2>
+            <h4>我的技能</h4>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 text-center">
+            <div class="service-item">
+              <i class="service-icon fa fa-camera-retro fa-3x"></i>
+              <h3>Web Layout</h3>
+              <p>less预处理</p>
+              <p>html+css</p>
+              <p>html5+css3</p>
+              <p>photoshop/AI</p>
+            </div>
+        </div>
+          <div class="col-md-4 text-center">
+            <div class="service-item">
+							<i class="service-icon fa fa-camera fa-3x"></i>
+              <h3>Dynamic Effect</h3>
+              <p>Javascript</p>
+              <p>jQuery</p>
+              <p>angularjs</p>
+              <p>react--</p>
+            </div>
+          </div>
+          <div class="col-md-4 text-center">
+            <div class="service-item">
+              <i class="service-icon fa fa-globe fa-3x"></i>
+              <h3>Data Contact</h3>
+              <p>phpcms</p>
+              <p>node.js</p>
+              <p>ajax</p>
+              <p>mysql</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /Speciallities -->
+    <!-- Experience -->
+    <div id="portfolio" class="portfolio">
+    	<div class="container">
+    		<div class="row push50">
+      		<div class="col-md-4s col-md-offset-4s text-center">
+        		<h2 class="da-title"><span>Experience</span></h2>
+        		<h4>作品展示</h4>
+						<h3>
+							<span class="filter label label-default" data-filter="all">ALL</span>
+							<!--<span class="filter label label-default" data-filter="UIS">UI</span>-->
+							<span class="filter label label-default" data-filter="nature">Game</span>
+							<span class="filter label label-default" data-filter="portraits">H5/CSS3</span>
+							<!-- <span class="filter label label-default" data-filter="bw">DS</span> -->
+						</h3>
+      			<hr>
+     			</div>
+    		</div>		
+				<div class="row">		
+					<div class="gallery">
+		     		<ul id="Grid" class="gcontainer">
+		          <!-- 1 -->
+		    		  <li class="col-md-4 col-sm-4 col-xs-12 mix portraits all" data-cat="graphics">
+		            <a href="https://yangyan11.github.io/xm/tour-APP/" data-toggle="modal"  class="mix-cover">
+		              <img class="horizontal" src="img/作品图片/tour.jpg" alt="placeholder">
+		      		    <span class="overlay">
+		      		      <span class="valign"></span>
+		      		      <span class="title">APP-tour</span>
+		      		    </span>
+		            </a>                
+		      		  </li>
+		           <!--  2 -->
+		    		    <li class="col-md-4 col-sm-4 col-xs-12 mix nature all" data-cat="nature">
+		              <a href="https://yangyan11.github.io/xm/run-game/" data-toggle="modal"  class="mix-cover">
+		                <img class="horizontal" src="img/作品图片/run.jpg" alt="placeholder">
+		        		    <span class="overlay">
+		                  <span class="valign"></span>
+		                  <span class="title">Game-Run</span>
+		                </span>
+		              </a>                
+		      		  </li>
+		            <!-- 3 -->
+					      <li class="col-md-4 col-sm-4 col-xs-12 mix nature all" data-cat="nature">
+		              <a href="https://yangyan11.github.io/xm/writegame/" data-toggle="modal" class="mix-cover">
+		                <img class="horizontal" src="img/作品图片/daziyouxi.jpg" alt="placeholder">
+		        		    <span class="overlay">
+		        		    	<span class="valign"></span>
+		        		    	<span class="title">Game-Write</span>
+		        		    </span>
+		        		  </a>
+		      		  </li>
+		            <!-- 4 -->
+		      		  <li class="col-md-4 col-sm-4 col-xs-12 mix  portraits all" data-cat="nature">
+		              <a href="https://yangyan11.github.io/xm/musicapp/" data-toggle="modal" class="mix-cover">
+		                <img class="horizontal"  src="img/作品图片/music.jpg" alt="placeholder">
+		        		    <span class="overlay">
+		        		    	<span class="valign"></span>
+		        		    	<span class="title">APP-music</span>
+		        		    </span>
+		        		  </a>
+		      		  </li>
+		            <!-- 5 -->
+					  		<li class="col-md-4 col-sm-4 col-xs-12 mix portraits all" data-cat="nature">
+		            	<a href="https://yangyan11.github.io/xm/canvas/canvas.html" data-toggle="modal"  class="mix-cover">
+		                <img class="horizontal" src="img/作品图片/canvas.jpg" alt="placeholder">
+		        		      <span class="overlay">
+		        		      	<span class="valign"></span>
+		        		      	<span class="title">canvas</span>
+		        		      </span>
+		        		    </a>
+		      		  </li>
+		            <!-- 6 -->
+					      <li class="col-md-4 col-sm-4 col-xs-12 mix portraits all" data-cat="nature">
+		              <a href="https://yangyan11.github.io/xm/3d-house/room.html" data-toggle="modal" class="mix-cover">
+		                <img class="horizontal" src="img/作品图片/house.jpg" alt="placeholder">
+		        		    	<span class="overlay">
+		        		    		<span class="valign"></span>
+		        		    		<span class="title">3d-house</span>
+		        		    	</span>
+		        		    </a>
+		      		  </li>
+		          
+		    		  </ul>   			  
+		<!-- Load Photo in Modal -->			  
+		   				<div class="modal fade" id="portrait1" tabindex="-1" role="dialog" aria-hidden="true">
+		  					<div class="modal-dialog">
+		    					<div class="modal-content">
+		      					<div class="modal-header">
+		        					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+		        					<h4 class="modal-title text-center">Portrait 1</h4>
+		      					</div>
+		      					<div class="modal-body">
+		       						<img class="thumbnail" alt="Portrait1" src="img/portrait1.jpg"/>
+		      					</div>
+		    					</div><!-- /.modal-content -->
+		  					</div><!-- /.modal-dialog -->
+							</div><!-- /.modal -->
+		  				<div class="modal fade" id="portrait2" tabindex="-1" role="dialog"  aria-hidden="true">
+		  					<div class="modal-dialog">
+		    					<div class="modal-content">
+		      					<div class="modal-header">
+		        					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+		        					<h4 class="modal-title text-center">Portrait 2</h4>
+		      					</div>
+		      					<div class="modal-body">
+		       						<img class="thumbnail" alt="Portrait1" src="img/portrait2.jpg"/>
+		      					</div>
+		    					</div><!-- /.modal-content -->
+		  					</div><!-- /.modal-dialog -->
+							</div><!-- /.modal -->
+		
+							<div class="modal fade" id="portrait3" tabindex="-1" role="dialog" aria-hidden="true">
+		  				<div class="modal-dialog">
+		    				<div class="modal-content">
+		      				<div class="modal-header">
+		        				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+		        				<h4 class="modal-title text-center">Portrait 3</h4>
+		      				</div>
+		      			<div class="modal-body">
+		       				<img class="thumbnail" alt="Portrait1" src="img/portrait3.jpg"/>
+		      			</div>
+		    			</div><!-- /.modal-content -->
+		  			</div><!-- /.modal-dialog -->
+					</div><!-- /.modal -->
+		
+					<div class="modal fade" id="portrait4" tabindex="-1" role="dialog"  aria-hidden="true">
+		  			<div class="modal-dialog">
+		    			<div class="modal-content">
+		      			<div class="modal-header">
+		        			<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+		        			<h4 class="modal-title text-center">Portrait 4</h4>
+		      			</div>
+		      			<div class="modal-body">
+		       				<img class="thumbnail" alt="Portrait1" src="img/portrait4.jpg"/>
+		      			</div>
+		    			</div><!-- /.modal-content -->
+		  			</div><!-- /.modal-dialog -->
+					</div><!-- /.modal -->
+		
+					<div class="modal fade" id="portrait5" tabindex="-1" role="dialog"  aria-hidden="true">
+		  			<div class="modal-dialog">
+		    			<div class="modal-content">
+		      			<div class="modal-header">
+		        			<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+		        			<h4 class="modal-title text-center">Portrait 5</h4>
+		      			</div>
+		      			<div class="modal-body">
+		       				<img class="thumbnail" alt="Portrait1" src="img/portrait5.jpg"/>
+		      			</div>
+		    			</div><!-- /.modal-content -->
+		  			</div><!-- /.modal-dialog -->
+					</div><!-- /.modal -->
+		
+					<div class="modal fade" id="nature" tabindex="-1" role="dialog"  aria-hidden="true">
+		  			<div class="modal-dialog">
+		    			<div class="modal-content">
+		      			<div class="modal-header">
+		        			<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+		        			<h4 class="modal-title text-center">Nature</h4>
+		      			</div>
+		      			<div class="modal-body">
+		       			<img class="thumbnail" alt="nature" src="img/nature.jpg"/>
+		      			</div>
+		    			</div><!-- /.modal-content -->
+		  			</div><!-- /.modal-dialog -->
+					</div><!-- /.modal -->
+		
+					<div class="modal fade" id="nature1" tabindex="-1" role="dialog" aria-hidden="true">
+		  			<div class="modal-dialog">
+		    			<div class="modal-content">
+		      			<div class="modal-header">
+		        			<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+		        			<h4 class="modal-title text-center">Nature 1</h4>
+		      			</div>
+		      			<div class="modal-body">
+		       				<img class="thumbnail" alt="nature" src="img/nature1.jpg"/>
+		      			</div>
+		    			</div><!-- /.modal-content -->
+		  			</div><!-- /.modal-dialog -->
+					</div><!-- /.modal -->
+		
+		
+					<div class="modal fade" id="forest" tabindex="-1" role="dialog" aria-hidden="true">
+		  			<div class="modal-dialog">
+		    			<div class="modal-content">
+		      			<div class="modal-header">
+		        			<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+		        			<h4 class="modal-title text-center">Forest</h4>
+		      			</div>
+		      			<div class="modal-body">
+		       				<img class="thumbnail" alt="forest" src="img/forest.jpg"/>
+		      			</div>
+		    			</div><!-- /.modal-content -->
+		  			</div><!-- /.modal-dialog -->
+					</div><!-- /.modal -->
+		
+					<div class="modal fade" id="bw1" tabindex="-1" role="dialog" aria-hidden="true">
+		  			<div class="modal-dialog">
+		   	 			<div class="modal-content">
+		      			<div class="modal-header">
+		        			<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+		        			<h4 class="modal-title text-center">Black and White</h4>
+		      			</div>
+		      		<div class="modal-body">
+		       			<img class="thumbnail" alt="forest" src="img/bw1.jpg"/>
+		      		</div>
+		    		</div><!-- /.modal-content -->
+		  		</div><!-- /.modal-dialog -->
+				</div><!-- /.modal -->
+		<!-- /Load Photo in Modal -->	
+					</div>	
+				</div>
+			</div>
+		</div>
+    <!-- /Portfolio -->
+    <!-- Contact -->
+    <div id="contact">
+      <div class="container text-center">
+        <div class="row">
+		<div class="col-md-4 col-md-offset-4 text-center">
+            <h2>Contact Me</h2>
+			<hr>
+          </div>
+          <div class="col-md-5 col-md-offset-3">
+		  <!-- contact form starts -->
+            <form action="contact" id="contact-form" class="form-horizontal">
+			<fieldset>
+						    <div class="form-group">
+						      <label class="col-sm-4 control-label" for="name">姓名</label>
+						      <div class="col-sm-8"><span>杨燕</span>
+				 <!--<input type="text"  placeholder="Your Name" class="form-control" name="name" id="name">-->
+						      </div>
+						    </div>
+                <div class="form-group">
+                  <label class="col-sm-4 control-label" for="message">电话</label>
+                  <div class="col-sm-8"><span>18303410951</span>
+  <!--<textarea placeholder="Please Type Your Message" class="form-control" name="message" id="message" rows="3"></textarea>-->
+                  </div>
+                </div>
+						    <div class="form-group">
+						      <label class="col-sm-4 control-label" for="email">邮箱</label>
+						      <div class="col-sm-8"><span>yangyan486@126.com</span>
+	 <!--<input type="text" placeholder="Enter Your Email Address" class="form-control" name="email" id="email">-->
+						      </div>
+						    </div>
+						    <div class="form-group">
+						      <label class="col-sm-4 control-label" for="subject">岗位</label>
+						      <div class="col-sm-8"><span>前端工程师</span>
+				  <!--<input type="text" placeholder="Subject" class="form-control" name="subject" id="subject">-->
+						      </div>
+						    </div>						    	              
+						</fieldset>
+						</form>
+				
+				<!-- contact form ends -->		
+          </div>
+        </div>
+      </div>
+    </div>
+     <!--/Contact 
+     Footer -->
+     <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-md-offset-3 text-center">
+           <h2>Thank You</h2>
+           <em>All copyright belongs to the individual</em>
+          </div>
+        </div>
+      </div>
+    </footer> 
+     <!--/Footer 
+     Bootstrap core JavaScript
+     Placed at the end of the document so the pages load faster-->
+  <script src="js/jquery.js"></script>
+	<script src="js/jquery-scrolltofixed-min.js"></script>
+	<script src="js/jquery.vegas.js"></script>
+	<script src="js/jquery.mixitup.min.js"></script>
+	<script src="js/jquery.validate.min.js"></script>
+	<script src="js/script.js"></script>
+	<script src="js/bootstrap.js"></script>
+	
+<!-- Slideshow Background  -->
+	<script>
+	//banner淡入淡出效果
+$.vegas('slideshow', {
+  delay:5000,
+  backgrounds:[
+    { src:'./img/slide4.jpg', fade:2000 },
+	 	{ src:'./img/slide_2.jpg', fade:2000 },
+    { src:'./img/portrait1.jpg', fade:2000 },
+	 	{ src:'./img/slide1.jpg', fade:2000 },
+    { src:'./img/portrait2.jpg', fade:2000 },
+    { src:'./img/portrait3.jpg', fade:2000 },
+	 	{ src:'./img/portrait4.jpg', fade:2000 },
+	  { src:'./img/forest.jpg', fade:2000 }
+ ]
+  //背景网格图形
+})('overlay', {
+src:'./img/overlay.png'
+});
+
+	</script>
+<!-- /Slideshow Background -->
+
+<!-- Mixitup : Grid -->
+    <script>
+		$(function(){
+    $('#Grid').mixitup();
+      });
+    </script>
+<!-- /Mixitup : Grid -->	
+
+    <!-- 楼层跳转滑动效果 -->
+    <script>
+      $(function() {
+        $('a[href*=#]:not([href=#])').click(function() {
+          if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') 
+            || location.hostname == this.hostname) {
+    
+            var target = $(this.hash);
+            target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+            if (target.length) {
+              $('html,body').animate({
+                scrollTop: target.offset().top
+              }, 1000);
+              return false;
+            }
+          }
+        });
+      });
+    </script>/
+<!-- 导航定位 -->
+<script type="text/javascript">
+$(document).ready(function() {
+        $('#nav').scrollToFixed();
+  });
+    </script>
+<!-- /导航定位-->
+	
+  </body>
+
+</html>
